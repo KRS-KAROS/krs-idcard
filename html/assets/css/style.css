@@ -1,0 +1,117 @@
+@font-face {
+  font-family: justsignature;
+  src: url('../fonts/justsignature/JustSignature.woff');
+}
+
+/* Stile per il corpo e l'html della pagina */
+body, html {
+  width: 100%;
+  height: 100%;
+
+}
+
+/* Stile per il div con ID "mydiv" che mostra un'immagine di un volto */
+#mydiv {
+  background-image: url("../images/face.png");
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 145px;
+  width: 120px;
+  overflow: hidden;
+  left: 10px;
+  top: 8px;
+}
+
+/* Stile per i paragrafi */
+p {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #9e9e9e;
+  font-size: 12px;
+}
+
+/* Stile per il div con ID "customfoto" che mostra un'immagine personalizzata */
+#customfoto {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 45%;
+  width: 45%;
+  background-image: url('carteV3_f.png');
+  overflow: hidden;
+  left: 45%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+ 
+  
+}
+
+/* Stile per il div con ID "id-card" che rappresenta la carta d'identità */
+#id-card {
+  position: relative;
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  left: -37%;
+  padding: 54px 17px 10px 144px;
+  background: url("../images/documento.png");
+  display: none;
+
+}
+
+/* Stile per il paragrafo con ID "name" per il nome */
+#name {
+  font-weight: bolder;
+  font-size: 18px;
+  color: #282828;
+}
+
+/* Stile per il div con ID "inline" contenente i paragrafi per la data di nascita, il sesso e l'altezza */
+#inline {
+  position: absolute;
+  top: 109px;
+}
+
+/* Stile per il paragrafo con ID "dob" per la data di nascita */
+#dob {
+  position: absolute;
+  left: 0;
+  width: 100px;
+}
+
+/* Stile per il paragrafo con ID "sex" per il sesso */
+#sex {
+  position: absolute;
+  left: 90px;
+}
+
+/* Stile per il paragrafo con ID "height" per l'altezza */
+#height {
+  position: absolute;
+  left: 150px;
+  width: 60px;
+}
+
+/* Stile per il paragrafo con ID "signature" per la firma */
+#signature {
+  position: absolute;
+  bottom: 76px;
+  left: 152px;
+  color: #e6e6e6;
+  font-size: 19px;
+  text-transform: capitalize;
+  font-family: justsignature;
+}
+
+/* Stile per il div con ID "licenses" per le licenze */
+#licenses {
+  position: absolute;
+  top: 109px;
+  right: 33px;
+  width: 50px;
+}

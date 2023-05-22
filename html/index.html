@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Inclusione del font Material Icons dal servizio Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Inclusione del foglio di stile CSS di Materialize -->
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <!-- Inclusione del foglio di stile personalizzato -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- Sezione principale per la carta d'identità -->
+    <div id="id-card">
+      <!-- Un div vuoto con l'ID "mydiv" -->
+      <div id="mydiv"></div>
+      <!-- Un paragrafo con l'ID "name" per visualizzare il nome -->
+      <p id="name"></p>
+      <!-- Un div con l'ID "inline" contenente tre paragrafi per visualizzare la data di nascita, il sesso e l'altezza -->
+      <div id="inline">
+        <p id="dob"></p>
+        <p id="sex"></p>
+        <p id="height"></p>
+      </div>
+      <!-- Un div con l'ID "licenses" per visualizzare le licenze -->
+      <div id="licenses">
+      </div>
+      <!-- Un paragrafo con l'ID "signature" per visualizzare la firma -->
+      <p id="signature"></p>
+    </div>
+    <!-- Un div con l'ID "customfoto" che non è visibile poiché ha lo stile "display:none" -->
+    <div id="customfoto" style="display:none">
+    </div>
+
+    <!-- Inclusione della libreria jQuery -->
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <!-- Inclusione della libreria Materialize -->
+    <script src="assets/js/materialize.js" type="text/javascript"></script>
+    <!-- Inizializzazione degli script personalizzati -->
+    <script src="assets/js/init.js" type="text/javascript"></script>
+  </body>
+</html>
