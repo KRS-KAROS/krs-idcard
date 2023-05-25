@@ -1,6 +1,6 @@
 Config = {}
 
-Config.webhooks = 'https://discord.com/api/webhooks/1096053518407848036/dZC7Xqe4rZpqUYQfibKrl65uo62ou0X6NIMzPVi8ijyDPaR-HeU7DWWKpyynGpl195AW' -- Qui inserite il vostro Webhooks Discord
+Config.webhooks = 'https://discord.com/api/webhooks/1111209181459009536/R66Z3R7Gko3vfifhdFEA34H1NKxDvaS6s8R2uBlmhfdB9Y_4r28CzJXvTzNbYt0tBX8X' -- Qui inserite il vostro Webhooks Discord
 
 Config.NpcPosizioneScuolaGuida = {
     {

@@ -129,13 +129,13 @@ end
 
 -- Patente --
 local numFotoScattatePatente = 1 -- Imposta il numero massimo di foto per la patente desiderato
-local maxNumFotoPerPatente = 1 -- Imposta il numero massimo di foto per la patente desiderato
+local maxNumFotoPerPatente = 2 -- Imposta il numero massimo di foto per la patente desiderato
 
 local numFotoScattatePortoArmi = 1 -- Imposta il numero massimo di foto per il porto d'armi desiderato
-local maxNumFotoPerPortoArmi = 1 -- Imposta il numero massimo di foto per il porto d'armi desiderato
+local maxNumFotoPerPortoArmi = 2 -- Imposta il numero massimo di foto per il porto d'armi desiderato
 
 local numFotoScattate = 1 -- Imposta il numero massimo di foto per il porto d'armi desiderato
-local maxNumFotoPerCarta = 1 -- Imposta il numero massimo di foto per il porto d'armi desiderato
+local maxNumFotoPerCarta = 2 -- Imposta il numero massimo di foto per il porto d'armi desiderato
 
 
 local scuolaguida = {
